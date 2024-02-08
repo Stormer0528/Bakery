@@ -240,6 +240,20 @@ const BusHire = () => {
             </div>
           </div>
         </div>
+        <div className={Styles.pickUpDestnationEachDiv}>
+                <HiLocationMarker
+                  style={{ color: "green", fontSize: "20px" }}
+                />
+                <input
+                  className={Styles.inputBox}
+                  type="text"
+                  placeholder="Enter your Destination "
+                  value={formValues.drop}
+                  name="drop"
+                  onChange={(e) => handleChange(e)}
+                />
+              </div>
+            </div>
         {/* r-commute */}
         <div className={Styles.rcommutediv}>
           <div className={Styles.rcommuteText}>rCommute</div>

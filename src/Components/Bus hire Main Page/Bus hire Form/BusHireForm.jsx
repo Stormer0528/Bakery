@@ -38,23 +38,6 @@ const BusHireForm = ({ handleClick }) => {
             <div className={Styles.pickUpDestnationDiv}>
               <div className={Styles.pickupDestiationHeading}>Pick up</div>
               <div className={Styles.pickUpDestnationEachDiv}>
-                <FaRegDotCircle style={{ color: "red", fontSize: "20px" }} />
-                <input
-                  className={Styles.inputBox}
-                  type="text"
-                  placeholder="Enter your Pickup location"
-                  value={formValues.pickUp}
-                  name="pickUp"
-                  onChange={(e) => handleChange(e)}
-                />
-              </div>
-              <div className={Styles.pickUpDestnationEachDiv}>
-                <div className={Styles.dottedDiv}></div>
-                <div className={Styles.pickupDestiationHeading}>
-                  Destination
-                </div>
-              </div>
-              <div className={Styles.pickUpDestnationEachDiv}>
                 <HiLocationMarker
                   style={{ color: "green", fontSize: "20px" }}
                 />
